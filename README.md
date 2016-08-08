@@ -18,13 +18,14 @@ All the carousel mainly have single slide but you are looking for multiple items
 
 
 #Basic usage
-
+<code>
 &lt;div ui-slider-wrapper=&quot;&quot;&gt;
     &lt;div data-slider-xs=&quot;1&quot; data-slider-sm=&quot;2&quot; data-slider-md=&quot;4&quot; data-slider-lg=&quot;6&quot; class=&quot;metric-wrapper&quot; ui-slider-repeat=&quot;&quot; ng-repeat=&quot;item in slides&quot;&gt;
     
          {{item}}
     &lt;/div&gt;  
 &lt;/div&gt;
+</code>
 
 Here data-slider-xs, data-slider-sm,data-slider-md,data-slider-lg has the same breakpoints as in bootstrap.
 The given values is used to divide the current width  resulting widh is applied to all the items in the slide
