@@ -1,0 +1,58 @@
+	.metric-wrapper
+    {
+        margin: 0 10px;
+        position: relative;
+        height: 200px;
+        width: 200px;
+        background: #fff;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+        padding: 0;
+        float: left;
+        outline: none;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        z-index: 3;
+    }
+    .ui-slider-scroller
+    {
+        padding: 30px;
+        overflow: hidden;
+    }
+    .ui-slider-previous,
+    .ui-slider-next
+    {
+        position:absolute;
+        top:50%;
+        margin-top:-30px;
+        font-size: 60px;
+        color: #666;
+        margin-top: -52px;
+        background: none;
+        border: none;
+        outline: none;
+        z-index:10;
+        cursor:pointer;
+    }
+    .ui-slider-previous
+    {
+        left:0;
+    }
+    .ui-slider-next
+    {
+        right:0;
+    
+    }
+    .ui-slider-previous[disabled],
+    .ui-slider-next[disabled]{
+        color: #ddd;
+    }
+    .ui-slider-wrapper
+    {
+        position:relative;
+        
+    }
+    .ui-slider-content
+    {
+        transition:all 0.8s ease;
+    }

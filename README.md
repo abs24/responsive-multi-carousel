@@ -16,6 +16,13 @@ All the carousel mainly have single slide but you are looking for multiple items
 1. If you are using with hardcoded width Directive may misbehave if the item width is more than the container width(Visible width) if you are using bootstrap like attributes it works
 
 
+Libraries required 
+Jquery ( only find api is used )
+angular 1x
+hammerjs   http://hammerjs.github.io/
+angular hammerjs  http://ryanmullins.github.io/angular-hammer/
+
+
 
 #Basic usage
 <code>&lt;div ui-slider-wrapper=&quot;&quot;&gt;&lt;div data-slider-xs=&quot;1&quot; data-slider-sm=&quot;2&quot; data-slider-md=&quot;4&quot; data-slider-lg=&quot;6&quot; class=&quot;metric-wrapper&quot; ui-slider-repeat=&quot;&quot; ng-repeat=&quot;item in slides&quot;&gt;{{item}}&lt;/div&gt;&lt;/div&gt;</code>
