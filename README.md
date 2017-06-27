@@ -1,5 +1,5 @@
 # responsive-multi-carousel
-under development
+Demo http://run.plnkr.co/OulU3bmdQCdw0E62/
 
 # Motivation to build this
 
